@@ -16,6 +16,6 @@ RUN cd client && npm run build
 # Copy server source
 COPY server/ ./server/
 
-EXPOSE 3001
+EXPOSE 8080
 
 CMD ["node", "server/index.js"]
