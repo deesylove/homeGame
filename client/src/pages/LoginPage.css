@@ -1,0 +1,71 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login-card {
+  background: #16213e;
+  border: 1px solid #2a2a5a;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+.login-card h1 {
+  font-size: 28px;
+  color: #6c63ff;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  background: #0f0f2a;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.mode-toggle button {
+  flex: 1;
+  background: transparent;
+  color: #888;
+  padding: 8px;
+}
+
+.mode-toggle button.active {
+  background: #6c63ff;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+form label {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: -6px;
+}
+
+.submit-btn {
+  background: #6c63ff;
+  color: white;
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 15px;
+}

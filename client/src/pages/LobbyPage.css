@@ -1,0 +1,69 @@
+.lobby-page { max-width: 800px; margin: 0 auto; padding: 20px; }
+
+.lobby-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #2a2a5a;
+}
+
+.lobby-header h1 { color: #6c63ff; }
+
+.user-info { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+.chips { color: #f1c40f; font-weight: 700; }
+.btn-logout { background: #333; color: #aaa; padding: 6px 12px; }
+
+.lobby-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.btn-create { background: #6c63ff; color: white; }
+
+.create-form {
+  background: #16213e;
+  border: 1px solid #2a2a5a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.create-form h3 { margin-bottom: 16px; }
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.form-row label { width: 120px; font-size: 13px; color: #aaa; flex-shrink: 0; }
+.form-row input { max-width: 120px; }
+
+.empty-lobby { color: #555; text-align: center; padding: 40px; }
+
+.table-list { display: flex; flex-direction: column; gap: 10px; }
+
+.table-card {
+  background: #16213e;
+  border: 1px solid #2a2a5a;
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-info { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.table-blinds { font-weight: 700; color: #f1c40f; }
+.table-players { color: #aaa; font-size: 13px; }
+.table-phase { font-size: 11px; padding: 2px 8px; border-radius: 20px; background: #2a2a4a; color: #aaa; }
+.table-phase.waiting { background: #1a4a1a; color: #4caf50; }
+.table-names { color: #888; font-size: 12px; width: 100%; }
+
+.btn-join { background: #4caf50; color: white; }
+.btn-join:disabled { background: #2a2a4a; }
