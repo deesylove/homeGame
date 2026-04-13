@@ -3,3 +3,4 @@ client/node_modules/
 client/dist/
 data/
 .env
+client/package-lock.json
