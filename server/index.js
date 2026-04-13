@@ -18,7 +18,10 @@ async function main() {
   const app = express();
   const server = http.createServer(app);
   const io = new Server(server, {
-    cors: { origin: 'http://localhost:5173', credentials: true }
+    cors: {
+      origin: process.env.NODE_ENV === 'production' ? false : 'http://localhost:5173',
+      credentials: true,
+    }
   });
 
   const sessionMiddleware = session({
